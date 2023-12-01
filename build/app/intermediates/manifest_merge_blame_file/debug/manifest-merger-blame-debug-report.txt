@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.video_downlad"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Gaboo\Documents\ITESO\PAPPS\DAPPS\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\Gaboo\Documents\ITESO\PAPPS\DAPPS\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Gaboo\Documents\ITESO\PAPPS\DAPPS\android\app\src\main\AndroidManifest.xml:4:5-5:67
+16-->C:\Users\Gaboo\Documents\ITESO\PAPPS\DAPPS\android\app\src\main\AndroidManifest.xml:5:10-65
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Gaboo\Documents\ITESO\PAPPS\DAPPS\android\app\src\main\AndroidManifest.xml:6:5-7:68
+17-->C:\Users\Gaboo\Documents\ITESO\PAPPS\DAPPS\android\app\src\main\AndroidManifest.xml:7:10-66
+18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+18-->C:\Users\Gaboo\Documents\ITESO\PAPPS\DAPPS\android\app\src\main\AndroidManifest.xml:8:5-9:69
+18-->C:\Users\Gaboo\Documents\ITESO\PAPPS\DAPPS\android\app\src\main\AndroidManifest.xml:9:10-67
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\Gaboo\.gradle\caches\transforms-3\ef2321c8ef384bd7d821c1ecf44a36ab\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+19-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\Gaboo\.gradle\caches\transforms-3\ef2321c8ef384bd7d821c1ecf44a36ab\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+20
+21    <application
+22        android:name="android.app.Application"
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] C:\Users\Gaboo\.gradle\caches\transforms-3\74ce2690f7529852b8321388684fcbb6\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+27        android:label="video_downlad" >
+28        <activity
+29            android:name="com.example.video_downlad.MainActivity"
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31            android:exported="true"
+32            android:hardwareAccelerated="true"
+33            android:launchMode="singleTop"
+34            android:theme="@style/LaunchTheme"
+35            android:windowSoftInputMode="adjustResize" >
+36            <!--
+37 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+43                android:name="io.flutter.embedding.android.NormalTheme"
+44                android:resource="@style/NormalTheme" />
+45
+46            <intent-filter>
+47                <action android:name="android.intent.action.MAIN" />
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+50            </intent-filter>
+51        </activity>
+52        <!--
+53 Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+57            android:name="flutterEmbedding"
+58            android:value="2" />
+59
+60        <uses-library
+60-->[androidx.window:window:1.0.0-beta04] C:\Users\Gaboo\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+61            android:name="androidx.window.extensions"
+61-->[androidx.window:window:1.0.0-beta04] C:\Users\Gaboo\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+62            android:required="false" />
+62-->[androidx.window:window:1.0.0-beta04] C:\Users\Gaboo\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] C:\Users\Gaboo\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+64            android:name="androidx.window.sidecar"
+64-->[androidx.window:window:1.0.0-beta04] C:\Users\Gaboo\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\Gaboo\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+66
+67        <provider
+67-->[androidx.startup:startup-runtime:1.1.1] C:\Users\Gaboo\.gradle\caches\transforms-3\ff5f5b0a71e9b3e49766bc82725fe9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.startup:startup-runtime:1.1.1] C:\Users\Gaboo\.gradle\caches\transforms-3\ff5f5b0a71e9b3e49766bc82725fe9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:27:13-67
+69            android:authorities="com.example.video_downlad.androidx-startup"
+69-->[androidx.startup:startup-runtime:1.1.1] C:\Users\Gaboo\.gradle\caches\transforms-3\ff5f5b0a71e9b3e49766bc82725fe9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:28:13-68
+70            android:exported="false" />
+70-->[androidx.startup:startup-runtime:1.1.1] C:\Users\Gaboo\.gradle\caches\transforms-3\ff5f5b0a71e9b3e49766bc82725fe9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:29:13-37
+71    </application>
+72
+73</manifest>
