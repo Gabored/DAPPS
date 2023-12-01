@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\felin\\OneDrive\\Documentos\\ESCUELA\\Programacion de apps\\TAREAS\\tarea3\\tarea3_pdm_2023\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Gaboo\\Documents\\ITESO\\PAPPS\\DAPPS\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\felin\\OneDrive\\Documentos\\ESCUELA\\Programacion de apps\\TAREAS\\tarea3\\tarea3_pdm_2023\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\Gaboo\\Documents\\ITESO\\PAPPS\\DAPPS\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
